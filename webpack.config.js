@@ -5,8 +5,8 @@ const Dotenv = require('dotenv-webpack');
 module.exports = {
   entry: './src/app.js', // 프로젝트의 진입점
   output: {
-    path: path.resolve(__dirname, 'dist'), // 빌드된 파일의 경로
-    filename: 'bundle.js', // 빌드된 파일의 이름
+    path: path.resolve(__dirname, 'docs'), // 빌드된 파일의 경로
+    filename: 'index.js', // 빌드된 파일의 이름
   },
   module: {
     rules: [
